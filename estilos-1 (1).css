@@ -1,0 +1,178 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+  
+  body {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    font-family: "Helvetica, Arial, Sans-serif"; 
+    }
+  div#mapa1 {
+    display: flex;
+    justify-content: center;
+    width: 1500px;
+    height:auto;
+      
+    }
+    .ventanasRegiones{
+      text-align: center;
+      height: 90%;
+      width: 180px;
+      border-radius: 15px;
+      background: rgb(255, 255, 255);
+      float: left;
+      
+    }
+    .ventana {
+      background-color: rgba(232, 245, 160, 0.8);
+      width: 30%;
+      color: rgb(0, 0, 0);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 18px;
+      text-align: left;
+      padding: 33px;
+      min-height: 250px;
+      border-radius: 22px;
+      position: absolute;
+      left: 42%;
+      top: 15%;
+      display: none;
+    }
+    #cerrar{
+      position: absolute;
+      right: 3px;
+     top: 2px;
+    }  
+
+  .mapadepartamentos{
+    margin-left: 10px;
+    font-size: 10px;
+    float:left;
+    width: 35%;
+    margin: auto;
+    border-top-left-radius: 10px;
+    border-color: #ffffff;
+    border-width: 5px;
+    border-style:hidden;
+    }
+  .mapadepartamentos h1{
+    background: #f3dfa2;
+    }
+      
+  .mapadepartamentos path{
+          fill: rgb(255, 255, 221);
+          stroke: black;
+          stroke-width: 2px;
+    }
+  
+  .mapadepartamentos :hover{
+          fill: rgb(231, 236, 161, 0.568);
+    }
+  
+  a {
+    color: rgb(255, 255, 255);
+    text-decoration: none; }
+    a:hover {
+      text-decoration: underline; }
+  
+  .wrap {
+    width: 90%;
+    max-width: 1500px;
+    margin: auto; }
+  
+  .main {
+    width: 100%;
+    min-height: 1000px; }
+
+  
+  .seccionToggle {
+    display: none;
+    height: calc(100vh - 50px);
+    background-color:#e7e1d3;
+    color: #001F3F;
+    padding: 50px 0;
+    text-align: center; }
+  .btn-toggle {
+    height: 70px;
+    line-height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+    display: block;
+    background: #f2ebdc;
+    text-align:center; }
+    .btn-toggle:hover {
+      text-decoration: none; }
+  
+  @media screen and (max-width: 500px) {
+    .seccionToggle h2 {
+      margin-top: 0; } }
+  @media screen and (max-height: 550px) {
+    .seccionToggle h2 {
+      font-size: 40px;
+      margin-top: 0; } }
+  
+  .carouselExample  h1 {
+
+    font-family:"MV Boli" ;
+    text-align: right;
+
+    }
+    
+  div#enkbzado {
+    
+    display: flex;
+    justify-content: center;
+    background-color: #d9cba3;
+
+  }
+
+  div#texto{
+
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 40px;
+    font-family: Bahnschrift Condensed;
+    font-size: 30px;
+
+  }
+
+  div#ra{
+
+    margin-right: 40px;
+
+  }
+
+  div#todo {
+    min-height: max-content;
+    background-color: #f2ebdc;
+
+    }
+  .maparegiones{
+    width: 35%;
+    min-height:max-content;
+    color: #000
+    }
+
+  .maparegiones path{
+    fill: rgb(39, 141, 8);
+    stroke: rgb(48, 48, 47);
+    stroke-width: 2px;
+    }
+  .maparegiones :hover{
+    fill: rgba(71, 211, 28, 0.568);
+    }
+
+  div#txtra{
+
+    font-size: 20px;
+    font-family: Bahnschrift Condensed;
+    text-align: center;
+    margin-top: 10px;
+    float: right;
+    width: 65%;
+    color: #000;
+    background-color: #f2ebdc;
+
+  }
